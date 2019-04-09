@@ -59,14 +59,30 @@ Menu
     background: #bfbfbf url('img/contributeurs/bg.png')repeat-x;
     font-family: Arial, sans-serif;
 }
+/* section 7*/
+#section_7 ul
+{
+    width: 980px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 148px;
+}
+#section ul li
+{
+    float: left;
+    width: 140px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
 .bw
 {
     position: absolute;
     left: 0px;
     width: 140px;
-    height: 250px;
+    height: 500px;
     cursor: pointer;
-    background: url('img/contributeurs/contributeursBetN.jpg') no-repeat;
+    background: url('img/contributeurs/contributeursBetN1.jpg') no-repeat;
     opacity: 0.7;
 }
 .color
@@ -74,20 +90,24 @@ Menu
     position: absolute;
     left: 140px;
     width: 140px;
-    height: 250px;
+    height: 500px;
     cursor: pointer;
-    background: url('img/contributeurs/contributeursCouleur.jpg') no-repeat;
+    background: url('img/contributeurs/contributeursCouleur1.jpg') no-repeat;
 }
 #part2 div
 {
     background-position: -140px 0px;  
+}
+#part3 div
+{
+    background-position: -280px 0px;  
 }
 .description
 {
     position: absolute;
     left: 140px;
     width: 240px;
-    height: 250px;
+    height: 460px;
     padding: 20px;
     background: #fff;
 }
@@ -99,6 +119,18 @@ Menu
     text-align: center;
     color: #333;
     text-transform: uppercase;
+}
+.description h3
+{
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 26px;
+    font-family: 'Lobster', sans-serif;
+    background: #d70000;
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
 }
 .description p
 {
