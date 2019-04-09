@@ -5,6 +5,11 @@ $(function(){
         console.log(res[0]);
  });
 
+ // recuperer la phrase en entier 
+ 
+ // parcourir le nombre de mot
+
+ // 
 
     
 
