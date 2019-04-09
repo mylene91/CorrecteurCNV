@@ -1,6 +1,11 @@
 $(function(){
+
     $("#buttonTry").click(function() {
-        console.log("merci pour ce click !");
-    });
+        var res = $("#exampleFormControlTextarea1").val().split(" ");
+        console.log(res[0]);
+ });
+
+
+    
 
 });

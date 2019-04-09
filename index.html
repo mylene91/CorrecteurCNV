@@ -10,7 +10,7 @@
     <!-- css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
    
-    <link href="style.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,,300,500,700,900|Roboto:200i" rel="stylesheet">
@@ -31,10 +31,30 @@
             </div>
         </div>
     </section>
-    <!--MENU-->
-
+    <nav class="nav">
+        <a class="nav-link active" href="##section_2">KEZAKO</a>
+        <a class="nav-link" href="#section_3">CNV</a>
+        <a class="nav-link" href="#section_4">Commentaires</a>
+        <a class="nav-link" href="#section_5">Compteur</a>
+        <a class="nav-link" href="#section_6">Ouvrages</a>
+        <a class="nav-link" href="#section_7">Contributeurs</a>
+        <a class="nav-link" href="#section_8">Contact</a>
+     </nav>
+    <!--KEZAO-->  
     <section id="section_2">
-        <!--KEZAO-->
+        <div class="container">
+            <div class="row col-md-6">
+                <div class="heading">
+                    <h2>KESAKO !</h2>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                </div>
+            </div>
+            <div class="row col-md-6">
+                <div class="heading">
+               </div>
+            </div>
+            
+        </div>    
     </section>
 
     <section id="section_3">
@@ -50,29 +70,135 @@
         </div>
     </section>
 
+    <!--Avis comments-->
     <section id="section_4">
-        <!--COMMENTS-->
+
     </section>
 
     <section id="section_5">
         <!--COMPTEUR-->
     </section>
 
+    <!--ouvrages-->
     <section id="section_6">
-        <!--OUVRAGES-->
+        <div class="container">
+                <div class="card-group">
+                        <div class="card">
+                          <img src="img/img/index.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="img/img/index.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="img/img/index.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                          </div>
+                        </div>
+                      </div>
+        </div>
+
     </section>
 
-    <section id="section_7">
-        <!--CONTRIBUTEURS-->
+    <!--CONTRIBUTEURS-->
+    <section id="section_7" class="container-fluid"></section>
+        <div class="container">
+            <div class="heading">
+                <h2>Contributeurs de ce projet</h2>
+            </div>
+            <div class="row">
+                <ul>
+                    <li>
+                        <div id="part1" class="images">
+                            <div class="bw"></div>
+                            <div class="color"></div>
+                        </div>
+                        <div class="description">
+                            <h2>Mylène<br> Greneron</h2>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="part2" class="images">
+                            <div class="bw"></div>
+                            <div class="color"></div>
+                        </div>
+                        <div class="description">
+                            <h2>Audrey<br>Sauvageon</h2>
+                        </div>
+                    </li>
+                </ul>
+            </div>   
+        
+    </div>
     </section>
+
+    <!--CONTACT-->
+    <section id="section_8" class="container-fluid">
+        <div class="container">
+            <div class="heading">
+                <h2>Contact</h2>
+            </div>    
+           <div class="row">
+               <div class="col-lg-10 col-lg-offset-1">
+                    <form id="contact-form" method="post" action="" role="form">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="firstname">Prénom </label>
+                                <input id="firstname" type="text" name="firstname" class="form-control" placeholder="Votre prénom" value="">
+                                <p class="comments"></p>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="name">Nom *</label>
+                                <input id="name" type="text" name="name" class="form-control" placeholder="Votre Nom" value="">
+                                <p class="comments"></p>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email">Email *</label>
+                                <input id="email" type="text" name="email" class="form-control" placeholder="Votre Email" value="">
+                                <p class="comments"></p>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="phone">Téléphone</label>
+                                <input id="phone" type="tel" name="phone" class="form-control" placeholder="Votre Téléphone" value="">
+                                <p class="comments"></p>
+                            </div>
+                            <div class="col-md-12">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" class="form-control" placeholder="Votre Message" rows="4"></textarea>
+                                <p class="comments"></p>
+                            </div>
+                            <div class="col-md-12">
+                                <p><strong>* Ces informations sont requises.</strong></p>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="submit" class="button2" value="Envoyer">
+                            </div>    
+                        </div>    
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section> 
 
     <footer>
         
     </footer>
 
 <!--SCRIPTS-->
-<script src="main.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
