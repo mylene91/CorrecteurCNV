@@ -8,7 +8,8 @@ $(function(){
         "nbEmotionWords": 0,
         "nbNeedsWords": 0,
         "nbInsults": 0,
-        "tu":0
+        "tu":0,
+        "je":0,
     };
 
     //message à afficher à l'utilsiateur
@@ -25,11 +26,17 @@ $(function(){
         //step2. look for dangerous words
         //looking for "toujours"
         analyse.toujours = true;
-        var monMessage = {
+        analyse.tu = true;
+        var msgToujours = {
             "type": "error",
             "message": "Attention le mot toujours peut poser problème en CNV blablabli blablabla"
-        }
-        messages.push(monMessage);
+        };
+        var msgTu = {
+            "type": "error",
+            "message": "Attention le mot tu peut poser problème en CNV blablabli blablabla"
+        };
+        messages.push(msgTu);
+        messages.push(msgToujours);
 
         //get template and update page for analyse
         var tpl =$("#templateAnalyse").html();
