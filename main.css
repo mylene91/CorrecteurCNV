@@ -1,0 +1,77 @@
+#section_1,#section_2, #section_4, #section_6,#section_8 {
+    background-color: grey;
+}
+
+#section_7 ul
+{
+    width: 980px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 148px;
+}
+#section_7 ul li
+{
+    float: left;
+    width: 140px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+}
+#section_7 h2
+{
+    color: #fff;
+}
+#section_7
+{
+    background: #bfbfbf url('img/contributeurs/bg.png')repeat-x;
+    font-family: Arial, sans-serif;
+}
+.bw
+{
+    position: absolute;
+    left: 0px;
+    width: 140px;
+    height: 250px;
+    cursor: pointer;
+    background: url('img/contributeurs/contributeursBetN.jpg') no-repeat;
+    opacity: 0.7;
+}
+.color
+{
+    position: absolute;
+    left: 140px;
+    width: 140px;
+    height: 250px;
+    cursor: pointer;
+    background: url('img/contributeurs/contributeursCouleur.jpg') no-repeat;
+}
+#part2 div
+{
+    background-position: -140px 0px;  
+}
+.description
+{
+    position: absolute;
+    left: 140px;
+    width: 240px;
+    height: 250px;
+    padding: 20px;
+    background: #fff;
+}
+.description h3
+{
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: 'LimeLight', sans-serif;
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+}
+.description p
+{
+    padding-top: 35px;
+    font-size: 22px;
+    font-family: 'Lobster', sans-serif;
+    color: #000;
+    text-align: center;
+}

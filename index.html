@@ -10,68 +10,277 @@
     <!-- css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
    
-    <link href="style.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,,300,500,700,900|Roboto:200i" rel="stylesheet">
     <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" rel="stylesheet">
 </head>
 <body>
-
-<section id="section_1" class="container-fluid">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-mx-auto">
-                <div class="accueil-appli">
-                    <h2 class="section-titre"> Correcteur CNV</h2>
-                </div>
-                <div class="subtitle-accueil">
-                    <p>Venez corriger votre texte avec une méthode de communication non violente</p>
+    <section id="section_1" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-mx-auto">
+                    <div class="accueil-appli">
+                        <h2 class="section-titre"> Correcteur CNV</h2>
+                    </div>
+                    <div class="subtitle-accueil">
+                        <p>Venez corriger votre texte avec une méthode de communication non violente</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!--MENU-->
-
-<section id="section_2">
-    <!--KEZAO-->
-</section>
-
-<section id="section_3">
-    <!--CNV-->
-    <div class="container">
-        <div class="row">
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                <input id="buttonTry" class="btn btn-primary" type="submit" value="Submit">
-              </div>
+    </section>
+    <nav class="nav">
+        <a class="nav-link active" href="##section_2">KEZAKO</a>
+        <a class="nav-link" href="#section_3">CNV</a>
+        <a class="nav-link" href="#section_4">Commentaires</a>
+        <a class="nav-link" href="#section_5">Compteur</a>
+        <a class="nav-link" href="#section_6">Ouvrages</a>
+        <a class="nav-link" href="#section_7">Contributeurs</a>
+        <a class="nav-link" href="#section_8">Contact</a>
+     </nav>
+    <!--KEZAO--> 
+    <section  id="section_2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="section-title">KEZAKO</h2>
+                    <p>La CNV est aujourd’hui diffusée et enseignée partout dans le monde, en fort développement en France où elle est transmise depuis les années 90.
+                            Elle est utilisée par des particuliers, dans le secteur de l’éducation, de la santé et dans des organisations très diverses.
+                            Si vous souhaitez utiliser la CNV ou la transmettre, merci de prendre connaissance des demandes du CNVC. Si vous avez des doutes et des questions sur ce sujet, merci de contacter un formateur certifié.
+                            La Communication NonViolente (CNV) est un processus de communication pragmatique et efficace, qui permet d’être clair, cohérent et congruent dans la communication, tout en étant ouvert et dans la compréhension de l’autre. Cette approche favorise la coopération et la résolution de conflits.</p>
+                </div>
+            <div class="col-md-6">
+                <div style="height:315px;width:560px;""></div>
+            </div>
         </div>
     </div>
-</section>
+    </section> 
+    <section id="section_3">
+        <!--CNV-->
+        <div class="container">
+            <div id="inputAndResults" class="row">
+                <div class="col-md-5">
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <input id="buttonTry" class="btn btn-primary" type="submit" value="Submit">
+                    </div>
+                </div>
+            </div>
+            <div id="messages"></div>
+        </div>
+    </section>
 
-<section id="section_4">
-    <!--COMMENTS-->
-</section>
+    <!--Avis comments-->
+    <section id="section_4">
+        <div class="container">
+            <div class="card-group">
+                <div class="card">
+                    <img src="img/img/index.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/img/index.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/img/index.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section id="section_5">
     <!--COMPTEUR-->
-</section>
+    <section id="section_5" class="metrics blockred">
+        <div class="container">
+            <div class="row colums-3">
+                <!-- 1ere colonne -->
+                <div class="col-md-3">
+                    <div class="metric">
+                        <div class="number">185</div>
+                        <div class="description">PREPARED MEALS</div>
+                    </div>
+                </div>
+                <!-- 2eme colonne -->
+                <div class="col-md-3">
+                    <div class="metric">
+                        <div class="number">185</div>
+                        <div class="description">PREPARED MEALS</div>
+                    </div>
+                </div>
+                <!-- 3eme colonne -->
+                <div class="col-md-3">
+                    <div class="metric">
+                        <div class="number">185</div>
+                        <div class="description">PREPARED MEALS</div>
+                    </div>
+                </div>
+                <!-- 4eme colonne -->
+                <div class="col-md-3">
+                    <div class="metric">
+                        <div class="number">185</div>
+                        <div class="description">PREPARED MEALS</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--ouvrages-->
+    <section id="section_6">
+        <div class="container">
+            <div class="card-group">
+                <div class="card">
+                    <img src="img/img/index.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/img/index.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/img/index.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section id="section_6">
-    <!--OUVRAGES-->
-</section>
-
-<section id="section_7">
     <!--CONTRIBUTEURS-->
-</section>
+    <section id="section_7">
+        <div class="container-fluid">
+                <h2>Les contributrices de ce projet</h2>
+        </div>
+        <ul>
+            <li>
+                <div id="part1" class="images">
+                    <div class="bw"></div>
+                    <div class="color"></div>
+                </div>
+                <div class="description">
+                    <h3>Audrey<br>Sauvageon</h3>
+                    <p>Développeuse Full Stack</p>
+                </div>
+            </li>
+            <li>
+                <div id="part2" class="images">
+                    <div class="bw"></div>
+                    <div class="color"></div>
+                </div>
+                <div class="description">
+                    <h3>Mylène<br> Greneron</h3>
+                    <p>Développeuse Full Stack</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+    
+
+    <!--CONTACT-->
+    <section id="section_8" class="container-fluid">
+        <div class="container">
+            <div class="heading">
+                <h2>Contact</h2>
+            </div>    
+           <div class="row">
+               <div class="col-lg-10 col-lg-offset-1">
+                    <form id="contact-form" method="post" action="" role="form">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="firstname">Prénom </label>
+                                <input id="firstname" type="text" name="firstname" class="form-control" placeholder="Votre prénom" value="">
+                                <p class="comments"></p>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="name">Nom *</label>
+                                <input id="name" type="text" name="name" class="form-control" placeholder="Votre Nom" value="">
+                                <p class="comments"></p>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email">Email *</label>
+                                <input id="email" type="text" name="email" class="form-control" placeholder="Votre Email" value="">
+                                <p class="comments"></p>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="phone">Téléphone</label>
+                                <input id="phone" type="tel" name="phone" class="form-control" placeholder="Votre Téléphone" value="">
+                                <p class="comments"></p>
+                            </div>
+                            <div class="col-md-12">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" class="form-control" placeholder="Votre Message" rows="4"></textarea>
+                                <p class="comments"></p>
+                            </div>
+                            <div class="col-md-12">
+                                <p><strong>* Ces informations sont requises.</strong></p>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="submit" class="button2" value="Envoyer">
+                            </div>    
+                        </div>    
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <footer>
+        
+    </footer>
+
+    <script id="templateAnalyse" type="x-tmpl-mustache">
+        <div class="col-md-6">
+            <ul>
+                <li>Nombre de mots : {{nombredemot}}</li>
+                <li>Présence du mot jamais: {{jamais}}</li>
+                <li>Présence du mot toujours: {{toujours}}</li>
+            </ul>
+        </div>
+    </script>
+    <script id="messageErrorTpl" type="x-tmpl-mustache">
+            <div class="row">
+                <div class="col-md-6">
+                    <strong>Attention</strong>: {{message}}
+                </div>
+            </div>
+        </script>
+<!--SCRIPTS-->
 
 <footer>
 
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="main.js"></script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.js"></script>
+<script src="script.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
