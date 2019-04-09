@@ -1,5 +1,38 @@
-#section_1,#section_2, #section_4, #section_6,#section_8 {
-    background-color: grey;
+#section_1,#section_3, #section_5, #section_7{
+    background-color: #4EA5FF;
+}
+section {
+    padding: 120px 0px;
+}
+
+.section_1 {
+    height: 486px;
+    background-position: center;
+    text-align: center;
+    padding: 0px;
+    background-size: cover;
+}
+
+/*
+Menu
+*/
+.menunavbar {
+    background-color: #eb4f30;
+    text-align: center;
+    border: none;
+    padding-top: 3vh;
+}
+
+.menunavbar li a {
+    font-family: 'Raleway', sans-serif;
+    text-transform: none;
+    color: #fff;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    font-weight: 200;
+    padding: 20px 18px;
+    text-decoration: none;
+    line-height: 1.2rem;
 }
 
 #section_7 ul
