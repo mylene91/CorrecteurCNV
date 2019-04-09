@@ -52,7 +52,7 @@
                             La Communication NonViolente (CNV) est un processus de communication pragmatique et efficace, qui permet d’être clair, cohérent et congruent dans la communication, tout en étant ouvert et dans la compréhension de l’autre. Cette approche favorise la coopération et la résolution de conflits.</p>
                 </div>
             <div class="col-md-6">
-                <iframe allowfullscreen="" height="315" src="https://www.youtube.com/embed/3lnS2ksnMvc" width="560"></iframe>
+                <div style="height:315px;width:560px;""></div>
             </div>
         </div>
     </div>
@@ -60,13 +60,16 @@
     <section id="section_3">
         <!--CNV-->
         <div class="container">
-            <div class="row">
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Example textarea</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    <input id="buttonTry" class="btn btn-primary" type="submit" value="Submit">
+            <div id="inputAndResults" class="row">
+                <div class="col-md-5">
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <input id="buttonTry" class="btn btn-primary" type="submit" value="Submit">
+                    </div>
                 </div>
             </div>
+            <div id="messages"></div>
         </div>
     </section>
 
@@ -252,9 +255,26 @@
         
     </footer>
 
+    <script id="templateAnalyse" type="x-tmpl-mustache">
+        <div class="col-md-6">
+            <ul>
+                <li>Nombre de mots : {{nombredemot}}</li>
+                <li>Présence du mot jamais: {{jamais}}</li>
+                <li>Présence du mot toujours: {{toujours}}</li>
+            </ul>
+        </div>
+    </script>
+    <script id="messageErrorTpl" type="x-tmpl-mustache">
+            <div class="row">
+                <div class="col-md-6">
+                    <strong>Attention</strong>: {{message}}
+                </div>
+            </div>
+        </script>
 <!--SCRIPTS-->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.js"></script>
 <script src="script.js"></script>
 <script src="main.js"></script>
 </body>
