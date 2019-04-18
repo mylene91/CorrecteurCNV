@@ -49,5 +49,8 @@ $(function(){
             html2generate = Mustache.render(tplErrorMsg, messages[i]);
             $("#messages").append(html2generate);
         }
+
+        // boutton supprimer et refaire
+        // nouveau node
     });
 });

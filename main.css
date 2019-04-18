@@ -1,23 +1,40 @@
-#section_1,#section_3, #section_5, #section_7{
-    background-color: #4EA5FF;
+body {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    color: #666666;
+
+}
+
+#section_3, #section_5, #section_7{
+    background-color: #a9d3cf;
 }
 section {
     padding: 120px 0px;
 }
 
-.section_1 {
+
+#section_1 .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#section_1 {
     height: 486px;
     background-position: center;
     text-align: center;
     padding: 0px;
+    background-color: #777778;
     background-size: cover;
+    background-image: url(img/img/headerimg.png) ;
 }
 
 /*
 Menu
 */
 .menunavbar {
-    background-color: #eb4f30;
+    background-color: #a9d3cf;
     text-align: center;
     border: none;
     padding-top: 3vh;
@@ -117,7 +134,7 @@ Menu
     font-size: 30px;
     font-family: 'LimeLight', sans-serif;
     text-align: center;
-    color: #333;
+    color: #a9d3cf;
     text-transform: uppercase;
 }
 .description h3
